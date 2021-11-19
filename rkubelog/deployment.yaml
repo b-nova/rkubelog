@@ -21,7 +21,7 @@ spec:
     spec:
       serviceAccountName: rkubelog-sa
       containers:
-      - image: ghcr.io/solarwinds/rkubelog:r18
+      - image: 914541419452.dkr.ecr.eu-central-1.amazonaws.com/rkubelog
         imagePullPolicy: Always
         name: "rkubelog"
         command:
