@@ -21,7 +21,7 @@ spec:
     spec:
       serviceAccountName: rkubelog-sa
       containers:
-      - image: 914541419452.dkr.ecr.eu-central-1.amazonaws.com/rkubelog
+      - image: public.ecr.aws/m4a9o5c3/rkubelog:ec16aa26b1a16889970dc54b860d369522f3e5be
         imagePullPolicy: Always
         name: "rkubelog"
         command:
